@@ -6,15 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Webpage</title>
     <link rel="stylesheet" href="styles.css">
+     
+    <script>
+    function home(){
+      alert("hi, i will take you home.");
+      }
+  
+    function about(){
+      alert("hi, i will tell you more.");
+      }
+  
+    function gallery(){
+      alert("hi, you wanna know more about gallery?");
+      }
+  
+    function contact(){
+      alert("hi, you can get in touch with me.");
+      }
+  
+    </script>
+
 </head>
 <body>
     <div class="nav-bar">
         <div class="logo">Snapshot</div>
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><b onclick="home()"><a href="#">Home</a></b></li>
+            <li><b onclick="about()"><a href="#">About</a></b></li>
+            <li><b onclick="gallery()"><a href="#">Gallery</a></b></li>
+            <li><b onclick="contact()"><a href="#">Contact</a></b></li>
         </ul>
     </div>
 
