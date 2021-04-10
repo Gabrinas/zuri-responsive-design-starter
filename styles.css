@@ -1,4 +1,64 @@
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  body{
+    background-color: brown;
+    font-size: 20px;
+  }
+}
+/* styles in this block are only applied if the screen 
+size is atleast 300px wide, and not more than 767px. */
+
+
+
+/*@media only screen and (min-width: 768px) and (max-width: 1023px){
+  body{
+    background-color: red;
+    font-size: 20px;
+  }
+} */
+/* styles in this block are only applied if the screen 
+size is atleast 768px wide, and not more than 1023px. */
+
+
+
+/*@media only screen and (min-width: 1024px){
+  body{
+    background-color: blue;
+    font-size: 20px;
+  }
+}*/
+/* styles in this block are only applied if the screen 
+size is atleast 1024px wide */
+
+
+
+/*@media screen and (min-width: 720px){
+  body{
+    background-color: yellow;
+    font-size: 80%;
+  }
+}*/
+/* styles in this block are only applied if the screen 
+size is atleast 720px wide. */
+
+
+@media print{
+  html{
+    background-color: white;
+  }
+}
+/* print a white background for the document. */
+
+
+
+@media (orientation: portrait){
+}
+/* print the document as a portrait. */
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+
 
 * {
     margin: 0;
@@ -345,3 +405,7 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+
+
+
